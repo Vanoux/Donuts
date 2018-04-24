@@ -1,0 +1,270 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    background-color:#f2f3ee;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+}
+
+
+/* Typography */
+
+h1, h2 {
+    color: #d17f38;
+    font-family: 'Love Ya Like A Sister';
+    
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    background-image: url(../images/header-divider.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 15px;
+   
+    
+}
+
+h1 em {
+    color: #4b2707;
+}
+
+h2 {
+   font-size: 35px;
+}
+
+h3 {
+    color: #4b2707;
+    font-size: 20px;
+}
+
+p.lead {
+    font-size: 30px;
+    text-align: center
+}
+
+p {
+    color: #4b2707;
+}
+
+a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+hr {
+    border: none;
+    background-image: url(../images/divider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 25px;
+    padding: 30px;
+}
+
+
+/* Header */
+
+header nav {
+	
+}
+
+header nav ul {
+	
+	padding: 5%;
+    margin: -50px;
+    text-align: center;
+    
+
+}
+
+header nav ul li {
+	display: inline-block;
+    padding-right: -10px;
+    font-weight: bold;
+    width: 15%
+    
+   
+	
+}
+
+header nav ul li a {
+    color: #d17f38;
+    text-transform: uppercase;
+	text-decoration: none;
+    
+	
+
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul li#logo a {
+    display: block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+	padding: 70px;
+    width: 100%;
+    color: transparent;
+
+}
+
+header nav ul li#logo a:hover {
+    background-image: url(../images/logo-hover.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+/* Hero */
+
+#hero {
+   background-color: #e8c04f; 
+}
+
+#hero .container {
+	text-align: center;
+    padding-right: 60px;
+    padding-left: 250px;
+
+}
+
+#hero .large-ribbon {
+    float: right;
+    background-image: url(../images/fresh-whole-ingredients.png);
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom:90px; 
+    color: transparent;
+	
+}
+
+
+
+/* The Whole Story */
+
+#story-excerpt {
+    margin-left: 18%;
+    margin-right: 48%;
+    text-align: left;    
+}
+
+#best-donut {
+    text-align: right;
+    background-image: url(../images/award.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px;
+    padding-top: 50px; 
+    margin-top: 50px;
+    
+}
+
+
+/* News & Events */
+
+#articles {
+    display: inline-block;
+    margin-right: 55%;
+
+}
+
+#feature-image {}
+
+}
+
+#news-events article {
+
+}
+
+#news-events article.news {
+    background-image: url(../images/icon-news.png);
+    background-repeat: no-repeat;
+    
+
+}
+
+#news-events article.event {
+    background-image: url(../images/icon-calendar.png);
+    background-repeat: no-repeat;
+}
+
+#news-events header time {
+    color: #d17f38;
+    font-size: 15px;
+
+}
+
+#news-events section.excerpt {
+   margin-right: 350px;
+
+}
+
+#news-events footer {
+
+
+}
+
+
+/* Footer */
+
+footer.main {
+    
+}
+
+footer.main a:hover {
+}
+
+#uncopyright, #credits {
+
+}
+
+#uncopyright {
+
+}
+
+#credits {
+
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
